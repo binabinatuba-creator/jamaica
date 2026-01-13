@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamaica Esports - Recrutamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <div class="logo-flag"></div>
+                <span>TROPA DA JAMAICA</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#requirements">Requisitos</a></li>
+                <li><a href="#apply" class="btn-apply">Candidatar-se</a></li>
+            </ul>
+            <button class="mobile-menu-toggle">☰</button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-flag">
+            <svg viewBox="0 0 1200 600" class="jamaica-flag">
+                <polygon points="0,0 1200,0 1200,600 0,600" fill="#000000" />
+                <polygon points="0,0 600,300 0,600" fill="#009B3A" />
+                <polygon points="1200,0 600,300 1200,600" fill="#009B3A" />
+                <polygon points="0,0 1200,600" fill="#FED100" stroke="none" />
+                <polygon points="1200,0 0,600" fill="#FED100" stroke="none" />
+                <polygon points="0,0 1200,600" fill="none" stroke="#FED100" stroke-width="80" />
+                <polygon points="1200,0 0,600" fill="none" stroke="#FED100" stroke-width="80" />
+            </svg>
+        </div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="JAMAICA ESPORTS">JAMAICA ESPORTS</h1>
+            <p class="hero-subtitle">Junte-se à elite do gaming competitivo</p>
+            <a href="#apply" class="btn-hero">INSCREVA-SE AGORA</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">SOBRE A JAMAICA</h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="icon">🏆</div>
+                    <h3>Campeões Natos</h3>
+                    <p>Somos uma organização focada em excelência e vitórias. Nosso time compete nos maiores torneios
+                        nacionais e internacionais.</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon">🎮</div>
+                    <h3>Multi-Gaming</h3>
+                    <p>Atuamos em diversos títulos competitivos: FPS, MOBA, XFAC e mais. Sempre buscando os melhores
+                        talentos.</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon">👥</div>
+                    <h3>Comunidade Forte</h3>
+                    <p>Mais que uma org, somos uma família. Apoio mútuo, treinos estruturados e crescimento conjunto são
+                        nossos pilares.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="requirements" class="requirements">
+        <div class="container">
+            <h2 class="section-title">O QUE BUSCAMOS</h2>
+            <div class="requirements-grid">
+                <div class="req-card">
+                    <div class="req-number">01</div>
+                    <h3>Skill Comprovada</h3>
+                    <p>Ranque alto nos jogos principais ou histórico competitivo demonstrável</p>
+                </div>
+                <div class="req-card">
+                    <div class="req-number">02</div>
+                    <h3>Dedicação</h3>
+                    <p>Disponibilidade para treinos regulares e participação em campeonatos</p>
+                </div>
+                <div class="req-card">
+                    <div class="req-number">03</div>
+                    <h3>Comunicação</h3>
+                    <p>Boa comunicação em equipe e atitude profissional</p>
+                </div>
+                <div class="req-card">
+                    <div class="req-number">04</div>
+                    <h3>Mentalidade Vencedora</h3>
+                    <p>Foco em melhorar constantemente e vontade de conquistar títulos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="apply" class="apply">
+        <div class="container">
+            <h2 class="section-title">CANDIDATE-SE</h2>
+            <form class="application-form" action="https://formsubmit.co/dagg74171@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Nova candidatura - Jamaica Esports">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+
+
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="nickJogo">Nick no jogo *</label>
+                        <input type="text" id="nickJogo" name="nickJogo" placeholder="Seu nick no servidor" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Nome *</label>
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="discord">Discord *</label>
+                        <input type="text" id="discord" name="discord" placeholder="usuario#1234" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Idade *</label>
+                        <input type="number" id="age" name="age" min="13" max="99" required>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="rdmVdm">O que é RDM e VDM? *</label>
+                        <textarea id="rdmVdm" name="rdmVdm" rows="3" placeholder="Explique o que significa RDM e VDM"
+                            required></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="cl">O que é CL? *</label>
+                        <textarea id="cl" name="cl" rows="3" placeholder="Explique o que significa CL"
+                            required></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="darkrp">O que é Dark RP? *</label>
+                        <textarea id="darkrp" name="darkrp" rows="3" placeholder="Explique o que é Dark RP"
+                            required></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="antirp">O que é Anti RP? *</label>
+                        <textarea id="antirp" name="antirp" rows="3" placeholder="Explique o que é Anti RP"
+                            required></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="combatlog">O que é Combat Log? *</label>
+                        <textarea id="combatlog" name="combatlog" rows="3" placeholder="Explique o que é Combat Log"
+                            required></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="abordagemPolicial">Se um policial abordar, o que você faz? *</label>
+                        <textarea id="abordagemPolicial" name="abordagemPolicial" rows="3"
+                            placeholder="Descreva como você reagiria" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tempoRP">Há quanto tempo joga RP? *</label>
+                        <input type="text" id="tempoRP" name="tempoRP" placeholder="Ex: 2 anos, 6 meses..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="faccao">Já participou de facção? *</label>
+                        <select id="faccao" name="faccao" required>
+                            <option value="">Selecione</option>
+                            <option value="sim">Sim</option>
+                            <option value="nao">Não</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="porqueEntrar">Por que quer entrar? *</label>
+                        <textarea id="porqueEntrar" name="porqueEntrar" rows="4"
+                            placeholder="Por que você quer fazer parte da Jamaica?" required></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="agregar">O que pode agregar? *</label>
+                        <textarea id="agregar" name="agregar" rows="4"
+                            placeholder="O que você pode trazer para a organização?" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="estiloRP">Estilo de RP *</label>
+                        <select id="estiloRP" name="estiloRP" required>
+                            <option value="">Selecione</option>
+                            <option value="agressivo">Agressivo</option>
+                            <option value="pacifico">Pacífico</option>
+                            <option value="estrategico">Estratégico</option>
+                            <option value="balanceado">Balanceado</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reagirOrdens">Como reage a ordens? *</label>
+                        <select id="reagirOrdens" name="reagirOrdens" required>
+                            <option value="">Selecione</option>
+                            <option value="obedeco">Obedeço sempre</option>
+                            <option value="questiono">Questiono quando necessário</option>
+                            <option value="ignoro">Prefiro agir sozinho</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="semorrer">Se morrer em ação, o que faz? *</label>
+                        <textarea id="semorrer" name="semorrer" rows="3"
+                            placeholder="Como você reage após morrer em uma ação?" required></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="disponibilidade">Dias e horários disponíveis *</label>
+                        <textarea id="disponibilidade" name="disponibilidade" rows="3"
+                            placeholder="Ex: Segunda a sexta 19h-23h, finais de semana o dia todo..."
+                            required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="possuiDiscordMic">Possui Discord e microfone? *</label>
+                        <select id="possuiDiscordMic" name="possuiDiscordMic" required>
+                            <option value="">Selecione</option>
+                            <option value="ambos">Sim, ambos</option>
+                            <option value="somenteDiscord">Apenas Discord</option>
+                            <option value="nenhum">Não possuo</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tempoFicar">Quanto tempo pretende ficar? *</label>
+                        <input type="text" id="tempoFicar" name="tempoFicar" placeholder="Ex: Longo prazo, 6 meses..."
+                            required>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="algoMais">Algo a mais</label>
+                        <textarea id="algoMais" name="algoMais" rows="4"
+                            placeholder="Informações adicionais que queira compartilhar (opcional)"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn-submit">ENVIAR CANDIDATURA</button>
+            </form>
+            <div id="formMessage" class="form-message"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-flag"></div>
+                    <h3>JAMAICA ESPORTS</h3>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link">Discord</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitch</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jamaica Esports. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
